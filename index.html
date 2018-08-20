@@ -1,0 +1,67 @@
+<!doctype>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Exercício Formulários</title>
+        <href="ink href="https://fonts.googleapis.com/css?family=Open+Sans" " rel="stylesheet"></href>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <center><img src="../Exercicio 17-08/img/imagem.png" alt="Cabecalho"></center>        
+        <form action="#" method="GET" class="form">
+        <div>
+            <label for="name">Texto</label>
+            <input type="text" name="name" placeholder="Seu nome">
+        </div>
+        <div>
+            <label for="name">Senha</label>
+            <input type="text" name="senha" placeholder="Senha">
+        </div>
+        <div>
+            <label for="name">Escolha uma ou múltiplas opções</label>
+            <div class="coluna">
+                <input type="checkbox" name="opcoes" value="mulher "> Mulher <br>
+                <input type="checkbox" name="opcoes" value="poderosa "> Poderosa <br>
+                <input type="checkbox" name="opcoes" value="linda"> Linda <br>
+                <input type="checkbox" name="opcoes" value="linda"> Maravilhosa<br>    
+            </div>
+        </div>
+        <div>
+            <label for="name">Escolha uma Opção:</label>
+            <div class="coluna">
+                <input type="radio" name="poder" value="forca"> Super força <br>
+                <input type="radio" name="poder" value="invisivel"> Ser invisível
+                <br>
+                <input type="radio" name="poder" value="mentes"> Ler mentes
+                <br>
+                <input type="radio" name="poder" value="velocidade"> Super velocidade   
+            </div>
+        </div>
+        <div>
+                <label for="name">Selecione um tópico</label>
+                <select name="dropdown">
+                    <option value="contato">Deixar meu site mais bonito</option>
+                    <option value="contato">Acabar com o patriarcado</option>
+                    <option value="contato">Fazer a revolução feminista</option>
+                </select>
+                <br>
+                <br>
+                <div>
+                        <label for="name">Escolha um valor</label>
+                        <input type="number" name="valor">
+                    </div>
+                    <br>
+                     <div>
+                        <label for="texto">Comentário</label>
+                        <textarea rows="4" col="50" class="half-col"></textarea>
+                    </div>
+                    <br>
+                     <div>
+                        <div class="coluna"></div>
+                        <button class="btn btn_cinza">Reset</button>
+                        <input class="btn btn_roxo" type="submit" value="Submit">
+                    </div>
+            </div>
+    </form>
+    </body>
+</html>
